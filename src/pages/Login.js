@@ -1,6 +1,4 @@
 import { useState } from "react";
-import { Button } from "@mui/material";
-import { BrowserRouter as Router , Route , Switch,Link } from "react-router-dom";
 import StudentLogin from "./StudentLogin";
 import AlumniLogin from "./AlumniLogin";
 import Start from "./Start"
