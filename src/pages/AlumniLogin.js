@@ -4,7 +4,7 @@ import { IoIosArrowRoundBack } from "react-icons/io";
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
-function AlumniLogin(SetAlumniLogin) {
+function AlumniLogin({SetAlumniLogin}) {
     const navigate = useNavigate();
     const [userName,SetUserName] = useState("");
     const [password,SetPassword] = useState("");

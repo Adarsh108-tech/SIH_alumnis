@@ -9,12 +9,10 @@ function StudentLogin({SetStudentLogin}) {
     const [password,SetPassword] = useState("");
     const [Data,SetData] = useState({});
     function userNameChange(event){
-        console.log(event.target.value)
         SetUserName(event.target.value)
     }
 
     function passwordChange(event){
-        console.log(event.target.value)
         SetPassword(event.target.value)
     }
 
