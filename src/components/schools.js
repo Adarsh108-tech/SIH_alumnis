@@ -6,7 +6,7 @@ function Schools() {
         {label:"BPIT", value:4},
     ]
     return ( 
-        <select> 
+        <select className=" w-[50%] border-2 border-black text-center"> 
         {
             schoolOptions.map(option => (
                 <option value={option.value}>{option.label}</option>

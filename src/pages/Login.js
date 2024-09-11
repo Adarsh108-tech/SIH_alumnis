@@ -15,5 +15,4 @@ function Login() {
         return <Start SetStudentLogin={SetStudentLogin} SetAlumniLogin={SetAlumniLogin} />
     }
 }
-
 export default Login;
