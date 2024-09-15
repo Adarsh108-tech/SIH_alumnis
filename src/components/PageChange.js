@@ -1,3 +1,6 @@
+import WorkBox from "./WorkBox";
+import ConnectBox from "./ConnectBox";
+
 function PageChange({page}) {
 
     const Data = [
@@ -7,12 +10,8 @@ function PageChange({page}) {
     if(page == 1 ){
         return ( 
             <div className="flex w-full h-full justify-center items-center gap-10 ">
-                <div className=" bg-slate-500 w-[20%] h-[80%] ">
-
-                </div>
-                <div className="bg-slate-500 w-[70%] h-[80%]">
-
-                </div>
+                <WorkBox />
+                <ConnectBox />
             </div>
          );
     }
