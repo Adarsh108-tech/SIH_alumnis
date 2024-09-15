@@ -58,7 +58,7 @@ function PageChange({page}) {
     
                 </div>
                 <div className="border-red-500 border-[2px] h-full w-[75%]">
-                    <ChatSection Data={Data} FetchData={fetchData}/>
+                    {/* <ChatSection Data={Data} FetchData={fetchData}/> */}
                 </div>
             </div>
          );
