@@ -4,8 +4,12 @@ import { Gig } from "./Gig"
 
 function WorkBox() {
   return (
-    <div className="flex flex-col justify-center items-center font-poppins text-xl font-medium rounded-[20px] p-2 pt-4 h-full w-1/4 text-black gap-2 bg-[#F4F6FF] ">
-      WORK
+    <div className="flex flex-col overflow-x-hidden shadow-neutral-300 shadow-sm  justify-start font-poppins items-center gap-4 no-scrollbar h-[85vh] overflow-y-scroll rounded-[16px] p-2 w-1/4 pt-0 bg-[#F4F6FF] ">
+        <div className='text-xl sticky flex justify-center py-2 bg-[#F4F6FF]  top-0 w-full z-50 text-black font-medium' >WORK
+        </div>
+    
+      <Gig/>
+      <Gig/>
       <Gig/>
       <Gig/>
       <Gig/>

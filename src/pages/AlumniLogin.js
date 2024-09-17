@@ -30,7 +30,7 @@ function AlumniLogin({SetAlumniLogin}) {
     return ( 
         <div className='h-full w-full relative flex flex-col items-center'>
             <IoIosArrowRoundBack onClick={() => {SetAlumniLogin(false)}} className='absolute top-1 left-1 text-[50px]' />
-            <img className='w-[120px] h-[120px] mt-10' src={logo}/>
+            <img className='w-[120px] h-[120px] mt-10' src={logo} alt="idk"/>
             <div className='flex items-center flex-col w-[30%] text-left'>
                 <p className='mt-0 text-[20px]'>Sign in as Alumni</p>
                 <form onSubmit={(event) => {handleSubmit(event)}} className='text-gray-500 flex flex-col gap-2'>
