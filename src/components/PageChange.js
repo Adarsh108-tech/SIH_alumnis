@@ -7,7 +7,7 @@ function PageChange({page}) {
         
     ]
 
-    if(page == 1 ){
+    if(page === 1 ){
         return ( 
             <div className="flex w-full h-full justify-center items-center gap-10 ">
                 <WorkBox />
@@ -15,7 +15,7 @@ function PageChange({page}) {
             </div>
          );
     }
-    if(page ==2 ){
+    if(page === 2 ){
         return ( 
             <div className="flex w-full h-full justify-center items-center">
                 Chats
